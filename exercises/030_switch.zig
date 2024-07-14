@@ -40,6 +40,9 @@ pub fn main() void {
             9 => std.debug.print("I", .{}),
             10 => std.debug.print("J", .{}),
             // ... we don't need everything in between ...
+            else => {
+                std.debug.print("?", .{});
+            },
             25 => std.debug.print("Y", .{}),
             26 => std.debug.print("Z", .{}),
             // Switch statements must be "exhaustive" (there must be a
