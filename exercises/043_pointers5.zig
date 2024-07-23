@@ -66,9 +66,10 @@ pub fn main() void {
         .mentor = &mighty_krodor, // Glorp's mentor is the Mighty Krodor
     };
 
+    const Glorp: *Character = &glorp;
     // FIX ME!
     // Please pass Glorp to printCharacter():
-    printCharacter(???);
+    printCharacter(Glorp);
 }
 
 // Note how this function's "c" parameter is a pointer to a Character struct.
